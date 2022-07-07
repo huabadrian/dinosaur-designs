@@ -14,6 +14,7 @@ img {
 
 h1, h2 {
   color: #5d8432;
+  font-family: Patua, One;
   text-transform: uppercase;
 }
 
@@ -25,6 +26,7 @@ figcaption {
 
 nav {
   font-size: 1.125rem;
+  font-family: Patua, One;
   font-weight: bold;
 }
 
@@ -34,6 +36,11 @@ nav ol {
 
 nav a {
   color: #793284;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  color: #b42885;
   text-decoration: underline;
 }
 
